@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio profesional de Angelo Garcia Valenzuela - Estudiante de 7mo ciclo de Ingeniería de Sistemas en la Universidad Autónoma del Perú, especialista en soporte tecnológico, gestión de información y soluciones web." />
+  <title>Angelo Garcia Valenzuela - Desarrollador Web</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header" id="inicio-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a href="#inicio" class="logo">AG<span>.dev</span></a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+        <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+        <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+        <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        <li class="nav-cta-mobile"><a href="#contacto" class="btn btn-primary">Contrátame</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Cambiar entre modo claro y oscuro" title="Cambiar tema">
+          <span class="icon-sun">☀️</span>
+          <span class="icon-moon">🌙</span>
+        </button>
+        <a href="#contacto" class="btn btn-primary btn-sm nav-cta-desktop">Contrátame</a>
+        <button id="menu-btn" class="icon-btn hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-links">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="inicio" class="hero container">
+      <div class="hero-content reveal">
+        <p class="hero-greeting"><span class="pulse-dot"></span> Disponible para prácticas / proyectos · Perú 🇵🇪</p>
+        <h1 class="hero-title">Angelo Garcia Valenzuela<br /><span class="gradient-text"></span></h1>
+        <p class="hero-subtitle">
+          Estudiante de <strong>7.º ciclo en la Universidad Autónoma del Perú</strong> con sólida formación en Computación e Informática. Especializado en soporte tecnológico, optimización de procesos, gestión de bases de datos y desarrollo web moderno.
+        </p>
+        <div class="hero-buttons">
+          <a href="#proyectos" class="btn btn-primary">Ver mis proyectos</a>
+          <a href="https://github.com/AngeloGarc" target="_blank" rel="noopener" class="btn btn-outline">Perfil de GitHub</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/AngeloGarc" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+          <span>·</span>
+          <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+          <span>·</span>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="hero-card">
+          <div class="hero-card-header">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+            <span class="hero-card-title">perfil_profesional.js</span>
+          </div>
+<pre class="code-block"><code><span class="code-kw">const</span> <span class="code-var">angeloGarcia</span> = {
+  nombre: <span class="code-str">'Angelo Garcia Valenzuela'</span>,
+  carrera: <span class="code-str">'Ingeniería de Sistemas (7.º Ciclo)'</span>,
+  universidad: <span class="code-str">'Universidad Autónoma del Perú'</span>,
+  formacionBase: <span class="code-str">'Computación e Informática'</span>,
+  especialidades: [
+    <span class="code-str">'Soporte Tecnológico'</span>,
+    <span class="code-str">'Bases de Datos'</span>,
+    <span class="code-str">'Optimización de Procesos'</span>,
+    <span class="code-str">'Desarrollo Web (HTML, CSS, JS, Git)'</span>
+  ],
+  estado: <span class="code-str">'En constante aprendizaje y transformación digital'</span>
+};</code></pre>
+          <div class="floating-badge badge-1">🎓 7.º Ciclo Ing. Sistemas</div>
+          <div class="floating-badge badge-2">💻 Soporte & Dev Tech</div>
+        </div>
+      </div>
+      <a href="#sobre-mi" class="scroll-down" aria-label="Ir a Sobre mí">↓</a>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi" class="section container">
+      <h2 class="section-title reveal">Sobre <span>mí</span></h2>
+      <p class="section-subtitle reveal">Formación sólida, experiencia técnica y compromiso con la mejora continua</p>
+      <div class="about-grid">
+        <div class="about-img reveal">
+          <img src="https://picsum.photos/seed/angelo-dev/500/600" alt="Foto de perfil de Angelo Garcia Valenzuela" loading="lazy" />
+        </div>
+        <div class="about-text reveal">
+          <h3>Profesional orientado a la optimización de procesos y transformación digital</h3>
+          <p>
+            Soy <strong>Angelo Garcia Valenzuela</strong>, profesional con formación en <strong>Computación e Informática</strong> y actualmente cursando el <strong>7.º ciclo de Ingeniería de Sistemas</strong> en la <strong>Universidad Autónoma del Perú</strong>.
+          </p>
+          <p>
+            Cuento con experiencia en <strong>soporte tecnológico, gestión de información y participación en proyectos</strong> orientados a la automatización y eficiencia operativa. Poseo amplios conocimientos en soluciones tecnológicas, bases de datos y desarrollo web, respaldados por un enfoque constante en la capacitación continua para adaptarme a los retos de la transformación digital.
+          </p>
+          <ul class="about-list">
+            <li>📍 <strong>Ubicación:</strong> Lima, Perú (Disponible para modalidad Presencial, Híbrida o Remota)</li>
+            <li>🎓 <strong>Educación:</strong> Universidad Autónoma del Perú — Ingeniería de Sistemas (7.º ciclo)</li>
+            <li>🛠️ <strong>Áreas clave:</strong> Soporte técnico, gestión de datos, análisis de procesos y desarrollo Frontend</li>
+            <li>🚀 <strong>Objetivo:</strong> Aportar valor estratégico a equipos de tecnología e innovación</li>
+          </ul>
+          <a href="#contacto" class="btn btn-primary">Hablemos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title reveal">Mis <span>habilidades</span></h2>
+        <p class="section-subtitle reveal">Competencias técnicas y conocimientos en constante evolución</p>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon">🖥️</div>
+            <h3>Soporte Tecnológico</h3>
+            <p>Mantenimiento preventivo/correctivo, gestión de incidencias, configuración de hardware y redes.</p>
+            <div class="skill-bar"><span style="--level: 90%"></span></div>
+            <span class="skill-tags">#Soporte #Hardware #Redes #Helpdesk</span>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">🗄️</div>
+            <h3>Bases de Datos & Información</h3>
+            <p>Diseño, modelado, consultas SQL y gestión eficiente de bases de datos relacionales.</p>
+            <div class="skill-bar"><span style="--level: 85%"></span></div>
+            <span class="skill-tags">#SQL #BasesDeDatos #DataManagement</span>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">⚡</div>
+            <h3>Desarrollo Web & Frontend</h3>
+            <p>Creación de interfaces web responsive e interactivas utilizando HTML5, CSS3 y JavaScript ES6+.</p>
+            <div class="skill-bar"><span style="--level: 85%"></span></div>
+            <span class="skill-tags">#HTML5 #CSS3 #JavaScript #Responsive</span>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">🔧</div>
+            <h3>Git & Control de Versiones</h3>
+            <p>Gestión de repositorios, flujo de trabajo con ramas y control de código en GitHub.</p>
+            <div class="skill-bar"><span style="--level: 80%"></span></div>
+            <span class="skill-tags">#Git #GitHub #VersionControl</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section container">
+      <h2 class="section-title reveal">Mis <span>proyectos</span></h2>
+      <p class="section-subtitle reveal">Soluciones desarrolladas en el ámbito académico y personal</p>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-img">
+            <img src="https://picsum.photos/seed/ecommerce-shop/600/400" alt="Vista previa del proyecto de Sistema Web" loading="lazy" />
+            <span class="project-badge">Desarrollo Web</span>
+          </div>
+          <div class="project-body">
+            <h3>Plataforma Web Interactiva</h3>
+            <p>Sistema web interactivo y adaptativo desarrollado con HTML, CSS y JavaScript enfocado en usabilidad y rendimiento.</p>
+            <div class="project-tech"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+            <div class="project-links">
+              <a href="https://github.com/AngeloGarc" target="_blank" rel="noopener" class="btn btn-outline btn-sm">GitHub</a>
+              <a href="#" class="btn btn-primary btn-sm">Ver Proyecto</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-img">
+            <img src="https://picsum.photos/seed/database-app/600/400" alt="Vista previa del proyecto de Optimización" loading="lazy" />
+            <span class="project-badge">Sistemas & Procesos</span>
+          </div>
+          <div class="project-body">
+            <h3>Gestor de Información & Datos</h3>
+            <p>Proyecto orientado a la estructuración de bases de datos y la optimización de procesos organizacionales.</p>
+            <div class="project-tech"><span>SQL</span><span>Gestión de Datos</span><span>Procesos</span></div>
+            <div class="project-links">
+              <a href="https://github.com/AngeloGarc" target="_blank" rel="noopener" class="btn btn-outline btn-sm">GitHub</a>
+              <a href="#" class="btn btn-primary btn-sm">Ver Detalles</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-img">
+            <img src="https://picsum.photos/seed/tech-support/600/400" alt="Vista previa de solución tecnológica" loading="lazy" />
+            <span class="project-badge">Infraestructura</span>
+          </div>
+          <div class="project-body">
+            <h3>Optimizador de Procesos TI</h3>
+            <p>Documentación y flujo de trabajo para la resolución y automatización de soporte tecnológico empresarial.</p>
+            <div class="project-tech"><span>Soporte TI</span><span>Gestión</span><span>ITIL</span></div>
+            <div class="project-links">
+              <a href="https://github.com/AngeloGarc" target="_blank" rel="noopener" class="btn btn-outline btn-sm">GitHub</a>
+              <a href="#" class="btn btn-primary btn-sm">Ver Detalles</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section section-alt">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <h2 class="section-title left">¿Trabajamos <span>juntos?</span></h2>
+          <p>Estoy abierto a oportunidades de prácticas, proyectos de desarrollo, soporte tecnológico y colaboración en transformación digital.</p>
+          <ul class="contact-list">
+            <li>🐙 <strong>GitHub:</strong> <a href="https://github.com/AngeloGarc" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">github.com/AngeloGarc</a></li>
+            <li>📍 <strong>Ubicación:</strong> Lima, Perú</li>
+            <li>🎓 <strong>Universidad:</strong> Universidad Autónoma del Perú</li>
+          </ul>
+        </div>
+        <form id="contact-form" class="contact-form reveal" novalidate>
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required minlength="2" autocomplete="name" />
+            <small class="error-msg"></small>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required autocomplete="email" />
+            <small class="error-msg"></small>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame sobre tu proyecto o propuesta laboral..." required minlength="10"></textarea>
+            <small class="error-msg"></small>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Enviar mensaje</button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Angelo Garcia Valenzuela — Lima, Perú. Todos los derechos reservados.</p>
+      <a href="#inicio" class="back-top" aria-label="Volver arriba">↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
